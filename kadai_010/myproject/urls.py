@@ -1,5 +1,5 @@
 """
-URL configuration for myproject project.
+URL configuration for kadai_010 project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.2/topics/http/urls/
@@ -27,3 +27,4 @@ urlpatterns = [
     path('crud/delete/<int:pk>', views.ProductDeleteView.as_view(), name="delete"),
     path('crud/detail/<int:pk>', views.ProductDetailView.as_view(), name="detail"),
 ]
+
